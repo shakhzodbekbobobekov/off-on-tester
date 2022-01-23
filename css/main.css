@@ -22,3 +22,29 @@ body {
     color: #fff;
     border-radius: 3px;
 }
+
+/* MEDIA */
+@media (min-width:0) and (max-width: 500px){
+    .checkStatus {
+        font-size: 14px;
+        padding: 6px;
+        letter-spacing: 0.5px;    
+    }
+}
+
+@media (min-width:501px) and (max-width: 786px){
+    .checkStatus {
+        font-size: 16px;
+        padding: 8px;
+        letter-spacing: 1px;    
+    }
+}
+
+@media (min-width:787px) and (max-width: 900px){
+    .checkStatus {
+        font-size: 18x;
+        padding: 10px;
+        letter-spacing: 1.5px;    
+    }
+}
+/* /MEDIA */
